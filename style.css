@@ -52,11 +52,6 @@ ul{
 
 }
 
-#content_section{
-    background-color: white;
-    height: 100vh;
-    width: 100%;
-}
 .nav_bottom{
     position: absolute;
     bottom:0;
@@ -83,8 +78,8 @@ ul{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-background: linear-gradient(145deg, #ffffff, #e6e6e6);
-box-shadow:  50px 50px 100px #d6d6d6,
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  50px 50px 100px #d6d6d6,
              -50px -50px 100px #ffffff;
     transition: 1s;
   }
@@ -101,3 +96,7 @@ box-shadow:  5px 5px 10px #d6d6d6,
 }
 
 /* =========side bar end====== */
+
+#content_section{
+    padding-left: 350px;
+}
